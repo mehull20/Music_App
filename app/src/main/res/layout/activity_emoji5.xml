@@ -6,6 +6,13 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/untitled1" />
+
     <TextView
         android:id="@+id/textView3"
         android:layout_width="285dp"
@@ -13,6 +20,7 @@
         android:layout_marginStart="70dp"
         android:layout_marginTop="130dp"
         android:text="Here's the playlist for you:"
+        android:textColor="@color/white"
         android:textSize="24sp"
         android:textStyle="bold" />
 
@@ -24,6 +32,7 @@
         android:layout_marginTop="70dp"
         android:text="Whooo! Someone looks happy~"
         android:textAlignment="center"
+        android:textColor="@color/white"
         android:textSize="24sp"
         android:textStyle="bold|italic" />
 
@@ -32,10 +41,10 @@
         android:layout_width="375dp"
         android:layout_height="50dp"
         android:layout_marginStart="20dp"
-        android:layout_marginTop="240dp"
+        android:layout_marginTop="220dp"
         android:text="@string/hyperlink6"
         android:textAlignment="center"
-        android:textColorLink="#000000"
+        android:textColorLink="@color/white"
         android:textSize="20sp"
         tools:layout_editor_absoluteX="154dp"
         tools:layout_editor_absoluteY="737dp" />
