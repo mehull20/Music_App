@@ -31,7 +31,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="50dp"
         android:layout_marginTop="70dp"
-        android:text="Smile, it looks good on you <3"
+        android:text="Smile, it looks good on you!"
         android:textAlignment="center"
         android:textColor="@color/white"
         android:textSize="24sp"
