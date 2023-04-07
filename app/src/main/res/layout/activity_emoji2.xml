@@ -8,26 +8,30 @@
 
     <TextView
         android:id="@+id/t10"
-        android:layout_width="285dp"
-        android:layout_height="46dp"
+        android:layout_width="wrap_content"
+        android:layout_height="53dp"
         android:layout_marginStart="70dp"
-        android:layout_marginTop="100dp"
-        android:text="Here's the playlist for you:"
-        android:textSize="24sp" />
+        android:layout_marginTop="130dp"
+        android:text="Here's the playlist for you:)"
+        android:textSize="24sp"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/t11"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="340dp"
-        android:text="Hope, it makes your day better! Enjoy!!!!"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="70dp"
+        android:text="Chill Pill"
         android:textAlignment="center"
-        android:textSize="24sp" />
+        android:textColorHighlight="#673AB7"
+        android:textSize="30sp"
+        android:textStyle="bold|italic" />
 
     <TextView
         android:id="@+id/t12"
-        android:layout_width="375dp"
-        android:layout_height="50dp"
+        android:layout_width="378dp"
+        android:layout_height="81dp"
         android:layout_marginStart="20dp"
         android:layout_marginTop="240dp"
         android:text="@string/hyperlink2"
